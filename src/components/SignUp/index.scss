@@ -1,0 +1,37 @@
+@import '../../variables.scss';
+
+
+
+.title {
+  font-family: $font-title;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: $font-title;
+  font-weight: 100;
+}
+
+.login {
+  color: $color-basic;
+  font-size: small;
+}
+
+.container-buttons {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gmail-icon {
+  position: absolute;
+  left: 30px;
+  width: 20px;
+  top: 6px;
+}
+
+.span-or {
+  @include flexCenter();
+  margin: 20px 0;
+  font-size: larger;
+}

@@ -1,0 +1,17 @@
+@import '../variables.scss';
+
+
+.container {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+@media (min-width: 900px) {
+  .container {
+    gap: 20px;
+    border: 2px solid $color-basic;
+    border-radius: 10px;
+  }
+}
